@@ -60,9 +60,9 @@
 
   <!-- Device -->
   <project path="device/statix/sepolicy" name="android_device_statix_sepolicy" remote="statix" />
-  <project path="device/xiaomi/renoir" name="device_xiaomi_renoir_statix" remote="kazuki-device" />
-  <project path="device/xiaomi/sm8350-common" name="device_xiaomi_sm8350-common_statix" remote="kazuki-device" />
-  <project path="device/xiaomi/renoir-kernel" name="device_xiaomi_renoir-kernel_statix" remote="kazuki-device" />
+  <project path="device/xiaomi/marble" name="device_xiaomi_marble" remote="kazuki-device" />
+  <project path="device/xiaomi/marble-kernel" name="device_xiaomi_marble-kernel" remote="kazuki-device" />
+  <project path="device/xiaomi/sm8450-common" name="device_xiaomi_sm8450-common" remote="kazuki-device" />
 
   <!-- External -->
   <project path="external/arm-optimized-routines" name="external_arm-optimized-routines_custom" remote="kazuki" />
