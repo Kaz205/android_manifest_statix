@@ -15,6 +15,14 @@
 	   revision="udc"
 	   fetch="https://github.com/stx-staging/" />
 
+  <remote  name="kazuki"
+	   revision="udc"
+	   fetch="https://github.com/Kaz205/" />
+
+  <remote  name="r3"
+	   revision="refs/tags/android-14.0.0_r3"
+	   fetch="https://android.googlesource.com/" />
+
   <!-- GitLab -->
   <remote name="gitlab"
            fetch="https://gitlab.com/" />
@@ -46,6 +54,12 @@
   </project>
 
   <!-- Device -->
+  <project path="device/google/shusky" name="device_google_shusky" remote="kazuki" />
+  <project path="device/google/zuma" name="device_google_zuma" remote="kazuki" />
+  <project path="device/google/zuma-sepolicy" name="device_google_zuma-sepolicy" remote="kazuki" />
+  <project path="device/google/shusky-kernel" name="device/google/shusky-kernel" remote="r3" />
+  <project path="device/google/shusky-sepolicy" name="device/google/shusky-sepolicy" remote="r3" />
+  <project path="hardware/google/graphics/zuma" name="platform/hardware/google/graphics/zuma" remote="r3" />
   <project path="device/statix/sepolicy" name="android_device_statix_sepolicy" remote="staging" />
 
   <!-- External -->
