@@ -1269,5 +1269,4 @@
   <!-- StatiXOS -->
   <include name="remove.xml" />
   <include name="include.xml" />
-  <include name="include-caf.xml" />
 </manifest>
