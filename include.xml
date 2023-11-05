@@ -63,6 +63,8 @@
   <project path="device/google/gs-common" name="device/google/gs-common" remote="r3" />
   <project path="device/google/gs101" name="device/google/gs101" remote="r3" />
   <project path="device/google/gs101-sepolicy" name="device/google/gs101-sepolicy" remote="r3" />
+  <project path="hardware/google/pixel" name="hardware/google/pixel" remote="r3" />
+  <project path="hardware/google/pixel-sepolicy" name="hardware/google/pixel-sepolicy" remote="r3" />
   <project path="device/statix/sepolicy" name="android_device_statix_sepolicy" remote="staging" />
 
   <!-- External -->
