@@ -16,6 +16,7 @@
 
   <remote name="kazuki-gitlab"
           fetch="https://gitlab.com/Kaz205"
+          clone-depth="1"
           revision="thirteen" />
 
   <!-- GitHub (StatiXOS) -->
@@ -137,4 +138,7 @@
     <linkfile src="build/stop_scan.mk" dest="kernel/Android.mk" />
   </project>
   <project path="vendor/statix-prebuilts" name="android_vendor_statix-prebuilts" remote="statix" />
+  <project path="vendor/xiaomi/renoir" name="vendor_xiaomi_renoir" remote="kazuki-gitlab" />
+  <project path="vendor/xiaomi/renoir-firmware" name="vendor_xiaomi_renoir-firmware" remote="kazuki-gitlab" />
+  <project path="vendor/xiaomi/sm8350-common" name="vendor_xiaomi_sm8350-common" remote="kazuki-gitlab" />
 </manifest>
