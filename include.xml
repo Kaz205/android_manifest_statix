@@ -15,6 +15,11 @@
            revision="udc-qpr2"
            fetch="https://github.com/stx-staging/" />
 
+  <!-- GitHub (Kaz205) -->
+  <remote  name="kaz205"
+           revision="udc-qpr2"
+           fetch="https://github.com/Kaz205/" />
+
   <!-- GitLab -->
   <remote name="gitlab"
            fetch="https://gitlab.com/" />
@@ -27,7 +32,7 @@
   <project path="art" name="android_art" remote="statix-staging" />
 
   <!-- Bionic-->
-  <project path="bionic" name="android_bionic" remote="statix-staging" />
+  <project path="bionic" name="android_bionic_statix" remote="kaz205" />
 
   <!-- Build -->
   <project path="build/make" name="android_build" remote="statix-staging" groups="pdk" >
@@ -46,16 +51,19 @@
 
   <!-- Device -->
   <project path="device/statix/sepolicy" name="android_device_statix_sepolicy" remote="statix" />
+  <project path="device/xiaomi/sm8250-common" name="android_device_xiaomi_sm8250-common" remote="kaz205" />
+  <project path="device/xiaomi/pipa" name="device_xiaomi_pipa" remote="kaz205" />
 
   <!-- External -->
   <project path="external/gptfdisk" name="android_external_gptfdisk" remote="statix-staging" />
   <project path="external/mksh" name="android_external_mksh" remote="statix-staging" />
   <project path="external/tinycompress" name="android_external_tinycompress" remote="statix-staging" />
   <project path="external/e2fsprogs" name="android_external_e2fsprogs" remote="statix-staging" />
+  <project path="external/arm-optimized-routines" name="AOSPA/android_external_arm-optimized-routines" remote="github" />
 
   <!-- Frameworks -->
   <project path="frameworks/av" name="android_frameworks_av" remote="statix-staging" />
-  <project path="frameworks/base" name="android_frameworks_base" remote="statix-staging" />
+  <project path="frameworks/base" name="android_frameworks_base_statix" remote="kaz205" />
   <project path="frameworks/native" name="android_frameworks_native" remote="statix-staging" />
 
   <!-- Google Mobile Services -->
@@ -118,4 +126,5 @@
     <linkfile src="build/stop_scan.mk" dest="kernel/Android.mk" />
   </project>
   <project path="vendor/statix-prebuilts" name="android_vendor_statix-prebuilts" remote="statix-staging" />
+  <project path="vendor/hardware/xiaomi" name="statix-leddaz/android_vendor_hardware_xiaomi" remote="github">
 </manifest>
