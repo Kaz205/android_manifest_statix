@@ -10,6 +10,11 @@
            revision="udc-qpr3"
            fetch="https://github.com/StatiXOS/" />
 
+  <!-- GitHub (Kaz205) -->
+  <remote  name="kaz205"
+           revision="udc-qpr3"
+           fetch="https://github.com/Kaz205/" />
+
   <!-- GitLab -->
   <remote name="gitlab"
            fetch="https://gitlab.com/" />
@@ -22,7 +27,7 @@
   <project path="art" name="android_art" remote="statix" />
 
   <!-- Bionic-->
-  <project path="bionic" name="android_bionic" remote="statix" />
+  <project path="bionic" name="android_bionic_statix" remote="kaz205" />
 
   <!-- Build -->
   <project path="build/make" name="android_build" remote="statix" groups="pdk" >
@@ -44,6 +49,9 @@
     <linkfile src="build.sh" dest="build.sh" />
   </project>
   <project path="device/statix/sepolicy" name="android_device_statix_sepolicy" remote="statix" />
+  <project path="device/google/shusky" name="device_google_shusky" remote="kaz205" revision="udc" />
+  <project path="device/google/zuma" name="device_google_zuma" remote="kaz205" revision="udc" />
+  <project path="device/google/shiba" name="CalyxOS/device_google_shiba" remote="github" revision="android14" />
 
   <!-- External -->
   <project path="external/gptfdisk" name="android_external_gptfdisk" remote="statix" />
@@ -51,16 +59,19 @@
   <project path="external/tinycompress" name="android_external_tinycompress" remote="statix" />
   <project path="external/e2fsprogs" name="android_external_e2fsprogs" remote="statix" />
   <project path="external/wpa_supplicant_8" name="android_external_wpa_supplicant_8" remote="statix" />
+  <project path="external/arm-optimized-routines" name="AOSPA/android_external_arm-optimized-routines" remote="github" revision="uvite" />
+  <project path="external/jemalloc_new" name="android_external_jemalloc-new" remote="kaz205" revision="uvite" />
 
   <!-- Frameworks -->
   <project path="frameworks/av" name="android_frameworks_av" remote="statix" />
-  <project path="frameworks/base" name="android_frameworks_base" remote="statix" />
+  <project path="frameworks/base" name="android_frameworks_base_statix" remote="kaz205" />
   <project path="frameworks/native" name="android_frameworks_native" remote="statix" />
 
   <!-- Google Mobile Services -->
   <project path="vendor/gms" name="StatiXOS/google-mobile-services" remote="gitea" revision="udc-qpr3" clone-depth="1" />
 
   <!-- Hardware -->
+  <project path="hardware/google/graphics/common" name="Kaz205/hardware_google_graphics_common" remote="github" revision="udc" />
   <project path="hardware/interfaces" name="android_hardware_interfaces" remote="statix" />
   <project path="hardware/libhardware" name="android_hardware_libhardware" remote="statix" />
   <project path="hardware/nxp/nfc" name="android_hardware_nxp_nfc" remote="statix" />
@@ -82,7 +93,7 @@
   <project path="packages/apps/Aperture" name="android_packages_apps_Aperture" remote="statix" />
   <project path="packages/apps/BtHelper" name="android_packages_apps_BtHelper" remote="statix" revision="udc" />
   <project path="packages/apps/Launcher3" name="android_packages_apps_Launcher3" remote="statix" />
-  <project path="packages/apps/Settings" name="android_packages_apps_Settings" remote="statix" />
+  <project path="packages/apps/Settings" name="android_packages_apps_Settings_statix" remote="kaz205" />
   <project path="packages/apps/ThemePicker" name="android_packages_apps_ThemePicker" remote="statix" />
   <project path="packages/apps/Statix/ColorStub" name="android_packages_apps_Statix_ColorStub" remote="statix" />
   <project path="packages/apps/Statix/Launcher" name="android_packages_apps_Statix_Launcher" remote="statix" />
@@ -103,12 +114,13 @@
   <project path="bootable/recovery" name="android_bootable_recovery" remote="statix" />
 
   <!-- System -->
-  <project path="system/core" name="android_system_core" remote="statix" />
+  <project path="system/core" name="android_system_core_statix" remote="kaz205" />
   <project path="system/libhidl" name="android_system_libhidl" remote="statix" />
   <project path="system/sepolicy" name="android_system_sepolicy" remote="statix" />
 
   <!-- Tools -->
   <project path="tools/extract-utils" name="android_tools_extract-utils" remote="statix" />
+  <project path="calyx/scripts" name="CalyxOS/scripts" remote="github" revision="android14" />
 
   <!-- Vendor -->
   <project path="vendor/google/interfaces" name="android_vendor_google_interfaces" remote="statix" />

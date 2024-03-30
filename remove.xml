@@ -50,7 +50,6 @@
   <remove-project name="device/google/gs101-sepolicy" />
   <remove-project name="device/google/gs201" />
   <remove-project name="device/google/gs201-sepolicy" />
-  <remove-project name="device/google/gs-common" />
   <remove-project name="device/google/lynx" />
   <remove-project name="device/google/lynx-sepolicy" />
   <remove-project name="device/google/lynx-kernel" />
@@ -86,7 +85,9 @@
   <remove-project name="device/sample" />
 
   <!-- External -->
+  <remove-project name="platform/external/arm-optimized-routines" />
   <remove-project name="platform/external/gptfdisk" />
+  <remove-project name="platform/external/jemalloc_new" />
   <remove-project name="platform/external/mksh" />
   <remove-project name="platform/external/tinycompress" />
   <remove-project name="platform/external/e2fsprogs" />
@@ -98,6 +99,7 @@
   <remove-project name="platform/frameworks/native" />
 
   <!-- Hardware -->
+  <remove-project name="platform/hardware/google/graphics/common" />
   <remove-project name="platform/hardware/interfaces" />
   <remove-project name="platform/hardware/libhardware" />
   <remove-project name="platform/hardware/nxp/nfc" />
