@@ -126,5 +126,5 @@
     <linkfile src="build/stop_scan.mk" dest="kernel/Android.mk" />
   </project>
   <project path="vendor/statix-prebuilts" name="android_vendor_statix-prebuilts" remote="statix-staging" />
-  <project path="vendor/hardware/xiaomi" name="statix-leddaz/android_vendor_hardware_xiaomi" remote="github">
+  <project path="vendor/hardware/xiaomi" name="statix-leddaz/android_vendor_hardware_xiaomi" remote="github" />
 </manifest>
