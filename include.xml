@@ -59,7 +59,7 @@
   <project path="external/mksh" name="android_external_mksh" remote="statix-staging" />
   <project path="external/tinycompress" name="android_external_tinycompress" remote="statix-staging" />
   <project path="external/e2fsprogs" name="android_external_e2fsprogs" remote="statix-staging" />
-  <project path="external/arm-optimized-routines" name="AOSPA/android_external_arm-optimized-routines" remote="github" />
+  <project path="external/arm-optimized-routines" name="AOSPA/android_external_arm-optimized-routines" remote="github" revision="uvite" />
 
   <!-- Frameworks -->
   <project path="frameworks/av" name="android_frameworks_av" remote="statix-staging" />
@@ -126,5 +126,5 @@
     <linkfile src="build/stop_scan.mk" dest="kernel/Android.mk" />
   </project>
   <project path="vendor/statix-prebuilts" name="android_vendor_statix-prebuilts" remote="statix-staging" />
-  <project path="vendor/hardware/xiaomi" name="statix-leddaz/android_vendor_hardware_xiaomi" remote="github" />
+  <project path="vendor/hardware/xiaomi" name="statix-leddaz/android_vendor_hardware_xiaomi" remote="github" revision="udc" />
 </manifest>
