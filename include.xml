@@ -44,8 +44,8 @@
     <linkfile src="build.sh" dest="build.sh" />
   </project>
   <project path="device/statix/sepolicy" name="android_device_statix_sepolicy" remote="statix" />
-  <project path="device/google/caimito" name="Kaz205/android_device_google_caimito" remote="github" />
-  <project path="device/google/zumapro" name="Kaz205/android_device_google_zumapro" remote="github" />
+  <project path="device/google/caimito" name="Kaz205/android_device_google_caimito" remote="github" revision="vic" />
+  <project path="device/google/zumapro" name="Kaz205/android_device_google_zumapro" remote="github" revision="vic" />
   <project path="device/google/zumapro-sepolicy" name="android_device_google_zumapro-sepolicy" remote="statix" />
 
   <!-- External -->
