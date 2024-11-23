@@ -39,8 +39,6 @@
   <remove-project name="device/google/bluejay-kernels/5.10" />
   <remove-project name="device/google/bluejay-sepolicy" />
   <remove-project name="device/google/caimito" />
-  <remove-project name="device/google/caimito-kernels/6.1" />
-  <remove-project name="device/google/caimito-sepolicy" />
   <remove-project name="device/google/comet" />
   <remove-project name="device/google/comet-kernels/6.1" />
   <remove-project name="device/google/comet-sepolicy" />
@@ -54,7 +52,6 @@
   <remove-project name="device/google/gs101-sepolicy" />
   <remove-project name="device/google/gs201" />
   <remove-project name="device/google/gs201-sepolicy" />
-  <remove-project name="device/google/gs-common" />
   <remove-project name="device/google/lynx" />
   <remove-project name="device/google/lynx-sepolicy" />
   <remove-project name="device/google/lynx-kernels/5.10" />
