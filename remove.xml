@@ -39,18 +39,12 @@
   <remove-project name="device/google/bluejay-kernels/5.10" />
   <remove-project name="device/google/bluejay-sepolicy" />
   <remove-project name="device/google/caimito" />
-  <remove-project name="device/google/comet" />
-  <remove-project name="device/google/comet-kernels/6.1" />
-  <remove-project name="device/google/comet-sepolicy" />
   <remove-project name="device/google/coral" />
   <remove-project name="device/google/coral-kernel" />
   <remove-project name="device/google/coral-sepolicy" />
   <remove-project name="device/google/felix" />
   <remove-project name="device/google/felix-sepolicy" />
   <remove-project name="device/google/felix-kernels/5.10" />
-  <remove-project name="device/google/gs101-sepolicy" />
-  <remove-project name="device/google/gs201" />
-  <remove-project name="device/google/gs201-sepolicy" />
   <remove-project name="device/google/lynx" />
   <remove-project name="device/google/lynx-sepolicy" />
   <remove-project name="device/google/lynx-kernels/5.10" />
@@ -64,9 +58,6 @@
   <remove-project name="device/google/redbull-sepolicy" />
   <remove-project name="device/google/redfin" />
   <remove-project name="device/google/redfin-sepolicy" />
-  <remove-project name="device/google/shusky" />
-  <remove-project name="device/google/shusky-sepolicy" />
-  <remove-project name="device/google/shusky-kernels/5.15" />
   <remove-project name="device/google/sunfish" />
   <remove-project name="device/google/sunfish-kernel" />
   <remove-project name="device/google/sunfish-sepolicy" />
@@ -75,8 +66,6 @@
   <remove-project name="device/google/tangorpro-kernels/5.10" />
   <remove-project name="device/google/trout" />
   <remove-project name="device/google/vrservices" />
-  <remove-project name="device/google/zuma" />
-  <remove-project name="device/google/zuma-sepolicy" />
   <remove-project name="device/google/zumapro" />
   <remove-project name="device/google/zumapro-sepolicy" />
   <remove-project name="device/linaro/dragonboard" />
