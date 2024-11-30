@@ -44,9 +44,8 @@
     <linkfile src="build.sh" dest="build.sh" />
   </project>
   <project path="device/statix/sepolicy" name="android_device_statix_sepolicy" remote="statix" />
-  <project path="device/google/caimito" name="Kaz205/android_device_google_caimito" remote="github" revision="extract-utils" />
-  <project path="device/google/zumapro" name="Kaz205/android_device_google_zumapro" remote="github" revision="extract-utils" />
-  <project path="device/google/tokay" name="LineageOS/android_device_google_tokay" remote="github" revision="lineage-22.0" />
+  <project path="device/google/caimito" name="Kaz205/android_device_google_caimito" remote="github" revision="vic" />
+  <project path="device/google/zumapro" name="Kaz205/android_device_google_zumapro" remote="github" revision="vic" />
   <project path="device/google/zumapro-sepolicy" name="android_device_google_zumapro-sepolicy" remote="statix" />
   <project path="vendor/google/pixelparts" name="StatixOS/android_vendor_google_pixelparts" remote="gitlab" revision="vic" />
 
@@ -101,6 +100,9 @@
   <!-- Platform Testing -->
   <project path="platform_testing" name="android_platform_testing" remote="statix" />
 
+  <!-- Prebuilts -->
+  <project path="prebuilts/extract-tools" name="android_prebuilts_extract-tools" remote="statix" clone-depth="1" />
+
   <!-- Recovery -->
   <project path="bootable/recovery" name="android_bootable_recovery" remote="statix" />
 
@@ -109,15 +111,13 @@
   <project path="system/libhidl" name="android_system_libhidl" remote="statix" />
   <project path="system/sepolicy" name="android_system_sepolicy" remote="statix" />
 
+  <!-- Tools -->
+  <project path="tools/extract-utils" name="android_tools_extract-utils" remote="statix" />
+
   <!-- Vendor -->
   <project path="vendor/google/interfaces" name="android_vendor_google_interfaces" remote="statix" />
   <project path="vendor/statix" name="android_vendor_statix" remote="statix">
     <linkfile src="build/stop_scan.mk" dest="kernel/Android.mk" />
   </project>
   <project path="vendor/statix-prebuilts" name="android_vendor_statix-prebuilts" remote="statix" />
-
-  <project path="prebuilts/extract-tools" name="LineageOS/android_prebuilts_extract-tools" remote="github" revision="lineage-22.0" />
-  <project path="lineage/scripts" name="LineageOS/scripts" remote="github" revision="main" />
-  <project path="tools/extract-utils" name="LineageOS/android_tools_extract-utils" remote="github" revision="lineage-22.0" />
-  <project path="vendor/lineage" name="LineageOS/android_vendor_lineage" remote="github" revision="lineage-22.0" />
 </manifest>
