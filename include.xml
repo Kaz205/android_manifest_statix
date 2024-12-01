@@ -120,5 +120,5 @@
     <linkfile src="build/stop_scan.mk" dest="kernel/Android.mk" />
   </project>
   <project path="vendor/statix-prebuilts" name="android_vendor_statix-prebuilts" remote="statix" />
-  <project path="vendor/adevtool" name="Kaz205/adevtool" remote="github" />
+  <project path="vendor/adevtool" name="Kaz205/adevtool" remote="github" revision="main" />
 </manifest>
