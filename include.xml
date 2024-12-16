@@ -133,4 +133,7 @@
   <project name="CalyxOS/scripts" path="calyx/scripts" remote="gitlab" revision="staging/android15" />
   <project name="CalyxOS/vendor_calyx" path="vendor/calyx" remote="gitlab" revision="staging/android15" />
 
+  <project path="prebuilts/extract-tools" name="CalyxOS/platform_prebuilts_extract-tools" remote="github" revision="staging/android15" />
+  <project path="tools/extract-utils" name="CalyxOS/platform_tools_extract-utils" remote="github" revision="staging/android15" />
+
 </manifest>
