@@ -49,6 +49,13 @@
     <linkfile src="build.sh" dest="build.sh" />
   </project>
   <project path="device/statix/sepolicy" name="android_device_statix_sepolicy" remote="statix" />
+  <project path="device/google/caimito" name="Kaz205/android_device_google_caimito" remote="github" revision="vic" />
+  <project path="device/google/zumapro" name="Kaz205/android_device_google_zumapro" remote="github" revision="vic" />
+  <project path="device/google/zumapro-sepolicy" name="android_device_google_zumapro-sepolicy" remote="statix" />
+  <project path="vendor/google/pixelparts" name="StatixOS/android_vendor_google_pixelparts" remote="gitlab" revision="vic" />
+  <project path="device/google/zuma" name="StatixOS/android_device_google_zuma" remote="github" revision="vic" />
+  <project path="device/google/shusky" name="Kaz205/device_google_shusky" remote="github" revision="vic" />
+  <project path="device/google/zuma-sepolicy" name="StatixOS/android_device_google_zuma-sepolicy" remote="github" revision="vic" />
 
   <!-- External -->
   <project path="external/gptfdisk" name="android_external_gptfdisk" remote="statix-staging" />
@@ -121,4 +128,6 @@
     <linkfile src="build/stop_scan.mk" dest="kernel/Android.mk" />
   </project>
   <project path="vendor/statix-prebuilts" name="android_vendor_statix-prebuilts" remote="statix-staging" />
+
+  <project path="vendor/adevtool" name="Kaz205/adevtool" remote="github" revision="main" />
 </manifest>
