@@ -54,7 +54,6 @@
   <remove-project name="device/google/zuma" />
   <remove-project name="device/google/zuma-sepolicy" />
   <remove-project name="device/google/shusky" />
-  <remove-project name="device/google/zumapro-sepolicy" />
   <remove-project name="device/linaro/dragonboard" />
   <remove-project name="device/linaro/dragonboard-kernel" />
   <remove-project name="device/linaro/hikey" />
