@@ -54,7 +54,6 @@
   <project path="vendor/google/pixelparts" name="StatixOS/android_vendor_google_pixelparts" remote="gitlab" revision="vic" />
   <project path="device/google/zuma" name="Kaz205/device_google_zuma" remote="github" revision="vic" />
   <project path="device/google/shusky" name="Kaz205/device_google_shusky" remote="github" revision="vic" />
-  <project path="device/google/zuma-sepolicy" name="StatixOS/android_device_google_zuma-sepolicy" remote="github" revision="vic" />
 
   <!-- External -->
   <project path="external/gptfdisk" name="android_external_gptfdisk" remote="statix-staging" />
