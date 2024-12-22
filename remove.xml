@@ -74,6 +74,7 @@
   <remove-project name="platform/frameworks/native" />
 
   <!-- Hardware -->
+  <remove-project name="platform/hardware/google/graphics/common" />
   <remove-project name="platform/hardware/interfaces" />
   <remove-project name="platform/hardware/libhardware" />
   <remove-project name="platform/hardware/nxp/nfc" />

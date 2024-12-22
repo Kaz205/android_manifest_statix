@@ -71,6 +71,7 @@
   <project path="vendor/gms" name="StatiXOS/google-mobile-services" remote="gitea" revision="vic-qpr1" clone-depth="1" />
 
   <!-- Hardware -->
+  <project path="hardware/google/graphics/common" name="Kaz205/hardware_google_graphics_common" remote="github" revision="Vallhound" />
   <project path="hardware/interfaces" name="android_hardware_interfaces" remote="statix-staging" />
   <project path="hardware/libhardware" name="android_hardware_libhardware" remote="statix-staging" />
   <project path="hardware/nxp/nfc" name="android_hardware_nxp_nfc" remote="statix-staging" />
