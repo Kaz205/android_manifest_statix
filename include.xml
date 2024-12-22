@@ -49,8 +49,8 @@
     <linkfile src="build.sh" dest="build.sh" />
   </project>
   <project path="device/statix/sepolicy" name="android_device_statix_sepolicy" remote="statix" />
-  <project path="device/google/caimito" name="Kaz205/android_device_google_caimito" remote="github" revision="vic" />
-  <project path="device/google/zumapro" name="Kaz205/android_device_google_zumapro" remote="github" revision="vic" />
+  <project path="device/google/caimito" name="Kaz205/android_device_google_caimito" remote="github" revision="extract-utils" />
+  <project path="device/google/zumapro" name="Kaz205/android_device_google_zumapro" remote="github" revision="extract-utils" />
   <project path="vendor/google/pixelparts" name="StatixOS/android_vendor_google_pixelparts" remote="gitlab" revision="vic" />
   <project path="device/google/zuma" name="Kaz205/device_google_zuma" remote="github" revision="vic" />
   <project path="device/google/shusky" name="Kaz205/device_google_shusky" remote="github" revision="vic" />
@@ -122,10 +122,10 @@
   <project path="vendor/statix-prebuilts" name="android_vendor_statix-prebuilts" remote="statix-staging" />
 
   <project path="vendor/adevtool" name="Kaz205/adevtool" remote="github" revision="main" />
-  <project name="CalyxOS/scripts" path="calyx/scripts" remote="gitlab" revision="staging/android15" />
-  <project name="CalyxOS/vendor_calyx" path="vendor/calyx" remote="gitlab" revision="staging/android15" />
+  <project name="LineageOS/scripts" path="lineage/scripts" remote="github" revision="main" />
+  <project name="LineageOS/vendor_calyx" path="vendor/lineage" remote="github" revision="lineage-22.0" />
 
-  <project path="prebuilts/extract-tools" name="CalyxOS/platform_prebuilts_extract-tools" remote="github" revision="staging/android15" />
-  <project path="tools/extract-utils" name="CalyxOS/platform_tools_extract-utils" remote="github" revision="staging/android15" />
+  <project path="prebuilts/extract-tools" name="LineageOS/platform_prebuilts_extract-tools" remote="github" revision="lineage-22.0" />
+  <project path="tools/extract-utils" name="LineageOS/platform_tools_extract-utils" remote="github" revision="lineage-22.0" />
 
 </manifest>
