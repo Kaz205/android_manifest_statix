@@ -123,9 +123,8 @@
 
   <project path="vendor/adevtool" name="Kaz205/adevtool" remote="github" revision="main" />
   <project name="LineageOS/scripts" path="lineage/scripts" remote="github" revision="main" />
-  <project name="LineageOS/vendor_calyx" path="vendor/lineage" remote="github" revision="lineage-22.0" />
 
-  <project path="prebuilts/extract-tools" name="LineageOS/platform_prebuilts_extract-tools" remote="github" revision="lineage-22.0" />
-  <project path="tools/extract-utils" name="LineageOS/platform_tools_extract-utils" remote="github" revision="lineage-22.0" />
+  <project path="prebuilts/extract-tools" name="LineageOS/android_prebuilts_extract-tools" remote="github" revision="lineage-22.0" />
+  <project path="tools/extract-utils" name="LineageOS/android_tools_extract-utils" remote="github" revision="lineage-22.0" />
 
 </manifest>
